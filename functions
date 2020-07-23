@@ -1,0 +1,86 @@
+def hello():
+  print("Hello AkiraChix")
+  
+hello()
+
+def hello(name):
+  print("Hello {}".format(name))
+hello("AkiraChix")
+
+
+def year_of_birth(name,age):
+  year=2020-age
+  print("Hello {} you were born in year {}".format(name,year))
+year_of_birth("nicole",20)
+
+#1
+def hello():
+    print("Hello Akirachix")
+hello()
+
+#2
+def hello(name):
+    print("Hello {}".format(name))
+hello ("Akirachix") 
+
+#3
+def year_of_birth(name, age):
+    year = 2020 - age
+    print("Hello {} you were born in year {} ".format(name, year))
+year_of_birth("Eunice", 20)
+
+print("----")
+def add(k, l):
+    answer = k+l
+    return answer
+a = add(98,64)
+k = add(109,23)
+l = add(100, 730)
+print(a)
+print(k)
+print(l)
+
+print("-----")
+def subtract(x, y):
+    answer = x-y
+    return answer
+a = subtract(79,56)
+x = subtract(76, 47)
+y = subtract(86,57)
+print(a)
+print(x)
+print(y)
+
+print("-----")
+def divide(x, y):
+    answer = x/y
+    return answer
+a = divide(56,84)
+x = divide(75, 39)
+y = divide(367,27)
+print(a)
+print(x)
+print(y)
+
+print("-------")
+def multiply(x, y):
+    answer = x*y
+    return answer
+a = multiply(27,100)
+x = multiply(85, 39)
+y = multiply(20,37)
+print(a)
+print(x)
+print(y)
+
+print("-----")
+def remainder(x, y):
+    answer = x%y
+    return answer
+a = remainder(29,14)
+x = remainder(65,49)
+y = remainder(45,37)
+print(a)
+print(x)
+print(y)
+    
