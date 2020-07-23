@@ -1,0 +1,28 @@
+n=range(0,20)
+for x in n:
+   if (x%2)==0:
+         print("{0} is even".format(x))
+         
+print("------")
+s=range(30,50)
+for x in s:
+    if x%2!=0:
+         print("{0} is odd".format(x))
+         
+print("-----")
+x=[]
+for n in range(100,200):
+   if n%7==0:
+     #print(n)
+     x.append(n)
+     print(x)
+       
+print("-----")
+n=range(20)
+for x in n:
+   if x%2==0:
+      print("{} Fizz".format(x))
+   elif x%3==0:
+       print("{} Buzz".format(x))
+   else:
+       print("{} FizzBuzz".format(x))
